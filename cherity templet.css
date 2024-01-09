@@ -1,0 +1,131 @@
+#ccontaner{
+    margin: 0px
+}
+.all-padding{
+    padding: 5px 3%;
+}
+*{
+    font-family: 'Roboto', sans-serif;
+}
+#topbar{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(4, 4, 4);
+    overflow: auto;
+}
+#tollfree{
+    color: white;
+    float: left;
+    font-size: 15px;
+}
+#socialicon{
+    color: white;
+    float: right;
+}
+.fa-solid{
+    margin: 10px;
+    font-size: 15px;
+}
+.fa-brands{
+    margin: 10px;
+    font-size: 20px;
+}
+/* middalebarrr */
+#middalbar{
+    background-color: whitesmoke;
+    overflow: auto;
+}
+#hadding{
+    color: rgb(0, 0, 0);
+    float: left;
+    font-size: 20px;
+}
+#menu{
+    float: right;
+
+}
+
+#menu ul li{
+    display: inline-block;
+    margin: 10px;
+    
+}
+#menu ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    
+    
+}
+#Blog{
+    
+    padding: 9px 61px;
+    border: 1px solid black;
+    border-radius: 52px;
+    background-color: #478093;
+    color: white;
+
+}
+#search{
+    
+
+
+}
+#donate{
+    color: white;
+    padding: 20px 40px;
+    border-radius: 28px;
+    background-color: rgb(68, 150, 68);
+    border: 1px sloid rgb(68, 150, 68) ;
+}
+/* postter */
+#poster{
+    border: 1px solid white;
+    background-image: url(img/donate-charity-medical-health-background-1343852.jpg);
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+#poster  h1{
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    padding-top: 150px;
+    font-family: 'Belanosima', sans-serif;
+    margin: 0;
+    white-space: pre;
+
+}
+#poster p{
+    color: white;
+    text-align: center;
+    white-space: pre;
+    font-size:30px ;
+    font-family: 'Belanosima', sans-serif;
+    margin: 5px;
+
+}
+#READ{
+    color: white;
+    padding: 20px 40px;
+    border: 2px solid white;
+    border-radius: 28px;
+    background-color: rgb(68, 150, 68);
+    position: relative;
+    top:5%;
+    left: 45%;
+    background: transparent;
+}
+#READ:hover {
+    background-color: aqua; 
+    transition-duration:1s ;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
+  
